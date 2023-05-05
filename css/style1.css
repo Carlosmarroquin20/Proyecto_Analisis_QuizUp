@@ -1,0 +1,46 @@
+body {
+    
+  background-image: url('ruta-de-la-imagen.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .easy {
+    background-color: #1E90FF;
+  }
+  
+  .medium {
+    background-color: #FF8C00;
+  }
+  
+  .hard {
+    background-color: #FF4500;
+  }
